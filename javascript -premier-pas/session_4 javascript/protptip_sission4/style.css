@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+header{
+  background:rgb(229, 144, 87);
+  width: fit-content;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #05f329;
+  margin-bottom: 20px;
+}
+
+          
+form {
+  background: rgba(248, 247, 244, 0.991);
+  padding: 20px;
+  border-radius: 18px;
+  border:solid #f5d8d8;
+  box-shadow: 12px 12px 12px #f5d8d8;
+;
+  width: 350px;
+  margin: 0 auto 40px auto;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ece1e1;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgba(0, 100, 0, 0.881);
+}
+
+      
+.catalogue {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  border: solid #fffafa;
+  box-shadow: 0 12px 18px rgba(232, 10, 10, 0.2);
+  padding: 15px;
+  width: 220px;
+  text-align: center;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  color: #444;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.card button {
+  background: rgb(232, 124, 145);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: rgb(217, 127, 127);
+}
+
+      
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: bold;
+}

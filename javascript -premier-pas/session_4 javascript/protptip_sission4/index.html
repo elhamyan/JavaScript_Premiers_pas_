@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>📚 Gestion de la Bibliothèque</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>📚 Gestion de la Bibliothèque</h1>
+</header>
+  
+
+  <!-- Formulaire d’ajout -->
+  <form id="formLivre">
+    <label>Code :</label>
+    <input type="number" id="code" required>
+
+    <label>Titre :</label>
+    <input type="text" id="titre" required>
+
+    <label>Auteur :</label>
+    <input type="text" id="auteur" required>
+
+    <label>Disponible :</label>
+    <select id="disponible">
+      <option value="true">Oui</option>
+      <option value="false">Non</option>
+    </select>
+
+    <label>Prix</label>
+    <input type="number" id="prix" required>
+
+    <label>Annee</label>
+    <input type="number" id="annee" required>
+
+    <button type="submit">Ajouter le livre</button>
+  </form>
+
+  <!-- Catalogue -->
+  <div class="catalogue" id="catalogue"></div>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>Total des livres : <span id="total"></span></p>
+    <p>Livres disponibles : <span id="disponibles"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
